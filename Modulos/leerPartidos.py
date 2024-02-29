@@ -11,7 +11,7 @@ def leerPartidos():
         lector=csv.DictReader(fichero, delimiter=',')
 
         next(lector)
-
+        
         for i in lector:
 
             lista.append(i)
