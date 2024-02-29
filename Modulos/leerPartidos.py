@@ -6,7 +6,7 @@ def leerPartidos():
     
     lista=[]
     
-    with open('leerPartidos\Modulos\liga.csv') as fichero:
+    with open('Modulos\liga.csv') as fichero:
         
         lector=csv.DictReader(fichero, delimiter=',')
 
